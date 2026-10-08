@@ -1,6 +1,12 @@
 # NN-nRF52840-CW308-target-board
 
-An [nRF52840](https://www.nordicsemi.com/Products/nRF52840) target board for the [ChipWhisperer CW308 "UFO" main board](https://rtfm.newae.com/Targets/CW308%20UFO/), designed for side-channel analysis and fault-injection research on a modern BLE-capable SoC.
+An **open-source hardware design** for a [ChipWhisperer CW308 UFO](https://chipwhisperer.readthedocs.io/en/latest/Targets/CW308%20UFO.html) target board
+featuring the [Nordic nRF52840](https://www.nordicsemi.com/Products/nRF52840), a modern ARM Cortex-M4 microcontroller with integrated BLE 5.4
+connectivity commonly found in IoT and smart home devices. Designed for **hardware security research**, this board enables researchers and security
+professionals to conduct side-channel analysis and fault-injection experiments on real-world IoT targets. The platform facilitates the study of
+physical attack vectors against secure microcontrollers, supporting applications such as characterizing clock-glitch windows, analyzing power
+consumption patterns, and validating the resilience of cryptographic implementations. Released under the open-source CERN-OHL-S v2 license, this
+design empowers the security research community to reproduce, modify, and build upon cutting-edge defense mechanisms for embedded systems.
 
 ## Features
 
